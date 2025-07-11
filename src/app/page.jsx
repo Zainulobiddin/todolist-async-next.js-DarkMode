@@ -1,5 +1,4 @@
-"use client";
-import Category from "@/components/Category";
+import Category from "@/components/category/category";
 
 export default function Home() {
   return (

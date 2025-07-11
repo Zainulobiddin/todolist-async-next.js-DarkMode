@@ -79,9 +79,7 @@ export default function Category() {
 
 
       {/* Categories Table */}
-      {categories.length === 0 ? (
-        <p className="text-center text-gray-500 italic">No categories found</p>
-      ) : (
+      {categories &&  (
         <div className="overflow-x-auto">
           <table className="w-full text-left border  rounded-md overflow-hidden">
             <thead className="bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
