@@ -83,7 +83,7 @@ export default function Category() {
         <p className="text-center text-gray-500 italic">No categories found</p>
       ) : (
         <div className="overflow-x-auto">
-          <table className="w-full text-left border border-gray-300 rounded-md overflow-hidden dark:border-gray-700">
+          <table className="w-full text-left border  rounded-md overflow-hidden">
             <thead className="bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-200">
               <tr>
                 <th className="px-4 py-3 border dark:border-gray-700">ID</th>

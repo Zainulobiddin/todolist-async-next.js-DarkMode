@@ -1,9 +1,10 @@
-import Category from "@/components/category/category";
+"use client";
+import Category from "@/components/Category";
 
 export default function Home() {
   return (
-    <div>
+    <main className="min-h-screen p-8">
       <Category />
-    </div>
+    </main>
   );
 }
